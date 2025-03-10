@@ -1,0 +1,160 @@
+.circle-text {
+    position: absolute;
+    z-index: 2;
+    text-align: center;
+}
+
+.button {
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    z-index: 3;
+}
+
+.button img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    margin: 0;
+}
+
+div.a {
+  text-align: right;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+div.b {
+  text-align: left;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.circle-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 450px;
+  height: 450px;
+  border-radius: 50%;
+  border: 3px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.button {
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.button img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  margin: 0;
+}
+
+.button1 { top: -120px; left: 50%; transform: translateX(-50%); }
+.button2 { top: 0px; right: -120px; }
+.button3 { top: 50%; right: -120px; transform: translateY(-50%); }
+.button4 { bottom: 0px; right: -120px; }
+.button5 { bottom: -120px; left: 50%; transform: translateX(-50%); }
+.button6 { bottom: 0px; left: -120px; }
+.button7 { top: 50%; left: -120px; transform: translateY(-50%); }
+.button8 { top: 0px; left: -120px; }
+
+.menu {
+  display: none;
+  position: absolute;
+  top: 50px;
+  right: 10px;
+  background-color: white;
+  border: 1px solid black;
+  padding: 5px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+  font-size: 14px;
+}
+
+.bottom-buttons {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 20px;
+}
+
+.bottom-buttons button {
+  padding: 5px 10px;
+  font-size: 16px;
+  border: 2px solid black;
+  background-color: white;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bottom-buttons button img {
+  width: 30px;
+  height: 30px;
+  margin-left: 5px;
+}
+
+.button1 { top: -120px; left: 50%; transform: translateX(-50%); }
+.button2 { top: 0px; right: -120px; }
+.button3 { top: 50%; right: -120px; transform: translateY(-50%); }
+.button4 { bottom: 0px; right: -120px; }
+.button5 { bottom: -120px; left: 50%; transform: translateX(-50%); }
+.button6 { bottom: 0px; left: -120px; }
+.button7 { top: 50%; left: -120px; transform: translateY(-50%); }
+.button8 { top: 0px; left: -120px; }
+
+.saldo-input-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 10px;
+  margin-top: 0;
+}
+
+#input-container {
+  display: inline-block;
+  text-align: center;
+  margin-left: 10px;
+}
+
+#moneyInput {
+  width: 150px;
+  padding: 5px;
+}
+
+#submitAmount {
+  width: 75px;
+  padding: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+}
+
+
+#bottomSaldo {
+  color: red;
+}
+
+#topSaldo {
+  color: lightgreen;
+}
